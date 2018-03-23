@@ -1,8 +1,12 @@
+ var viewportTop = Math.max($('html').scrollTop(),$('body').scrollTop(),$(window).scrollTop()),
+viewportBottom = (viewportTop + windowHeight);
+
+
 $(document).ready(function() {
-//     $('.point').addClass("hidden").viewportChecker({
-       $('.point').viewportChecker({
-//         classToAdd: 'visible animated fadeIn',
-// 	classToRemove: 'hidden',
+   $('.point').addClass("hidden").viewportChecker({
+//        $('.point').viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        classToRemove: 'hidden',
         offset: 200
        });
 });
