@@ -1,5 +1,4 @@
- var viewportTop = Math.max($('html').scrollTop(),$('body').scrollTop(),$(window).scrollTop()),
-viewportBottom = (viewportTop + windowHeight);
+
 
 
 $(document).ready(function() {
