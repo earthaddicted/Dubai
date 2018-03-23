@@ -113,7 +113,7 @@ var lastScrollTop = 0;
 	
 });
 
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 //    $('.point').addClass("hidden").viewportChecker({
    $('.point').viewportChecker({
 	classToRemove: 'hidden',
