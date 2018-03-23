@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $('.point').addClass("hidden").viewportChecker({
+//     $('.point').addClass("hidden").viewportChecker({
+       $('.point').viewportChecker({
         classToAdd: 'visible animated fadeIn',
         offset: 200
        });
