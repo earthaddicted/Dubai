@@ -1,13 +1,7 @@
 
 
 
-$(document).ready(function() {
-   $('.point').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeIn',
-        classToRemove: 'hidden',
-        offset: 200
-       });
-});
+
 
 $(function(){
  $(document).click(function(event) {
@@ -119,3 +113,12 @@ var lastScrollTop = 0;
 	
 });
 
+$(document).ready(function() {
+//    $('.point').addClass("hidden").viewportChecker({
+   $('.point').viewportChecker({
+	classToRemove: 'hidden',
+        classToAdd: 'visible animated fadeIn',
+        
+        offset: 200
+       });
+});
