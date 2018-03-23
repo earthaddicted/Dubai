@@ -2,6 +2,7 @@ $(document).ready(function() {
 //     $('.point').addClass("hidden").viewportChecker({
        $('.point').viewportChecker({
         classToAdd: 'visible animated fadeIn',
+	classToRemove: 'hidden',
         offset: 200
        });
 });
